@@ -1,8 +1,8 @@
-# Documentation with style
+# Documentation Servers For All
 
 This is a documentation server template. using mkdocs. and markdown. and docker.
 
-<img src="/assets/imagery/screenshot.png">
+<img src="/docs/assets/imagery/screenshot.png">
 
 too lazy to write instructions. will use bard for that later.
 
