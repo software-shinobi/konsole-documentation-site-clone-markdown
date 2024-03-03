@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+
+    kompose-docs:
+
+        container_name: kompose-docs
+
+        image: softwareshinobi/kompose-docs
+
+        build: 
+
+            context: .
+
+            dockerfile: Dockerfile
+      
+        restart: unless-stopped
+
+        volumes:
+        
+            - ${PWD}:/docs/
+            
+            - ${PWD}/mkdocs.yml:/docs/mkdocs.yml
+            
+        ports:
+
+            - 8888:80
