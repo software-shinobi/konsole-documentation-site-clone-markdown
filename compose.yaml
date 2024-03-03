@@ -15,13 +15,7 @@ services:
             dockerfile: Dockerfile
       
         restart: unless-stopped
-
-        volumes:
-        
-            - ${PWD}:/docs/
-            
-            - ${PWD}/mkdocs.yml:/docs/mkdocs.yml
-            
+  
         ports:
 
             - 8888:80
