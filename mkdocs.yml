@@ -1,21 +1,7 @@
 
 docs_dir: docs
 
-site_name: Kompose
-
-nav:
-
-    - Home: 'index.md'   
-    
-    - Installation: 'guides/installation.md'
-
-    - Getting Started: 'guides/getting-started.md'
-    
-    - User Guide: 'guides/user.md'
-        
-    - Architecture: 'guides/architecture.md'
-
-    - Licenses: 'guides/licenses.md'
+site_name: "Servicio Por Novio"
 
 theme:
 
